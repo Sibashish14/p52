@@ -1,0 +1,91 @@
+body{
+    background-color:blue;
+}
+.Agni{
+    display:flex;
+    background-color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:30px;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.Bhramos{
+    display:flex;
+    margin-top:50px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:white;
+    justify-content:space-evenly;
+}
+.title{
+    align-items:center;
+
+}
+.title:hover img{
+     opacity:0.33;
+}
+.title:hover p{
+    opacity:1;
+}
+.title p{
+    position:relative;
+    opacity:0;
+}
+.title p{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:40%;
+    left:10%;
+}
+.pAgni{
+    margin-left:420px;
+    font-size:110%;
+}
+.bTitle p{
+    font-size:140%;
+}
+.bTitle p{
+    position:relative;
+    opacity:0;
+}
+.bTitle p{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:120%;
+    left:10%;
+ } 
+.bTitle:hover p{
+    opacity:1;
+}
+.pBhramos{
+    margin-left:420px;
+    font-size:110%;
+}
+
+.bTitle:hover img{
+    opacity:0.33;
+}
+.Astra{
+    background-color:white;
+}
+.aTitle p{
+    position:relative;
+    opacity:0;
+}
+.aTitle p{
+    position:absolute;
+    top:160%;
+    left:10%;
+    transform:translate(-50%,-50%);
+}
+.aTitle p{
+    font-size:200%;
+}
+.aTitle:hover p{
+    opacity:1;
+}
+.aTitle:hover img{
+    opacity:0.33;
+}
